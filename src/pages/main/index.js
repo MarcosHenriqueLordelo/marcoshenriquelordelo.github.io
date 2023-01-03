@@ -2,6 +2,7 @@ import React from "react";
 
 import About from "./sections/About";
 import History from "./sections/History";
+import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 
 const Main = () => {
@@ -10,6 +11,7 @@ const Main = () => {
       <About />
       <Skills />
       <History />
+      <Projects />
     </main>
   );
 };

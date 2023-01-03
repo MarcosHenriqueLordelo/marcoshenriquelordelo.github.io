@@ -49,12 +49,10 @@ export const HistoryLeft = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding-right: 16px;
 `;
 
 export const HistoryRight = styled.div`
   flex: 1;
-  padding-left: 16px;
 `;
 
 export const EmptySpace = styled.div`

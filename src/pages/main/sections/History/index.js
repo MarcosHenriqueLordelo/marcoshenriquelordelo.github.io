@@ -19,6 +19,7 @@ const History = () => {
       <HistoryTitle>Minha Trajetória</HistoryTitle>
       <HistoryContent>
         <HistoryLeft>
+          <EmptySpace height={36} />
           <HistoryItem
             label="Application Developer"
             enterprise="IBM"

@@ -23,7 +23,7 @@ export const Subtitle = styled.span`
   text-transform: capitalize;
   margin-top: 3px;
 
-  width: 300px;
+  max-width: 300px;
 `;
 
 export const Period = styled.span`

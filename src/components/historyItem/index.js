@@ -30,7 +30,7 @@ const HistoryItem = ({
       </Subtitle>
       <Period>
         {start}
-        {end && `- ${end}`}
+        {end && ` - ${end}`}
       </Period>
     </Container>
   );

@@ -2,7 +2,7 @@ const defaultTheme = {
   title: "default",
   colors: {
     action: "#BF0426",
-    section: "#172d44",
+    section: "#1F1F21",
     background: "#242426",
     font: "#FEF9FF",
   },
