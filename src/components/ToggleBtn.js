@@ -43,6 +43,11 @@ const Button = styled.div`
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
   }
+
+  @media (max-width: 900px) {
+    left: 1rem;
+    top: 1rem;
+  }
 `;
 
 const ToggleBtn = ({ onClick, active }) => {

@@ -19,10 +19,23 @@ export const Container = styled.section`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
+  @media (max-width: 900px) {
+    padding: 1rem;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
 `;
 
 export const PresentationContainer = styled.div`
   max-width: 50vw;
+
+  @media (max-width: 900px) {
+    max-width: 90%;
+  }
 `;
 
 export const ImageContainer = styled.div`
@@ -49,6 +62,8 @@ export const Gradient = styled.div`
 
 export const Title = styled.h1`
   font-size: ${({ theme }) => theme.fonts.sizes.larger};
+  text-align: center;
+  margin-bottom: 1rem;
 `;
 
 export const ActionSpan = styled.span`
@@ -57,6 +72,7 @@ export const ActionSpan = styled.span`
 
 export const Presentation = styled.p`
   font-size: ${({ theme }) => theme.fonts.sizes.medium};
+  text-align: center;
 `;
 
 export const ProfileImage = styled.img`
@@ -67,6 +83,8 @@ export const ProfileImage = styled.img`
 `;
 
 export const IconsContainer = styled.div`
+  display: flex;
+  justify-content: center;
   margin-top: 6rem;
   a:not(:last-child) {
     margin-right: 2.5rem;

@@ -10,11 +10,11 @@ html {
     font-family: 'Roboto';
     font-size: 62.5%;
     
-    @media(max-width:1200px){ //width < 1200
-        font-size: 56.25%; //1rem = 9px, 9/16 = 56.25%
-    }
     @media(max-width:900px) { //width < 900
         font-size: 50%; //1rem = 8px, 8/18 = 50%
+    }
+    @media(max-width:1200px){ //width < 1200
+        font-size: 56.25%; //1rem = 9px, 9/16 = 56.25%
     }
     @media(min-width:1800px) {
         font-size: 100%; //1rem = 12, 12/16 = 75%

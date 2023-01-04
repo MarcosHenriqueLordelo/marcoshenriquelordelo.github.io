@@ -18,6 +18,15 @@ export const Container = styled.nav`
   }
 
   z-index: 1;
+
+  @media (max-width: 900px) {
+    width: 100vw;
+    right: -100vw;
+
+    &.active {
+      transform: translateX(-100vw);
+    }
+  }
 `;
 
 export const Item = styled.span`

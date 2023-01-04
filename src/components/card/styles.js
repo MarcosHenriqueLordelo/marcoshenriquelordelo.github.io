@@ -16,6 +16,10 @@ export const Container = styled.div`
       transform: rotateY(0deg);
     }
   }
+
+  @media (max-width: 900px) {
+   margin-bottom: 6rem;
+  }
 `;
 
 export const CardSide = styled.div`

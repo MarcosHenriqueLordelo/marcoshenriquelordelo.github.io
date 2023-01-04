@@ -5,6 +5,10 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   height: 100vh;
+
+  @media (max-width: 900px) {
+    height: fit-content;
+  }
 `;
 
 export const HistoryTitle = styled.h2`

@@ -5,6 +5,10 @@ export const Container = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 900px) {
+    height: fit-content;
+  }
 `;
 
 export const Content = styled.div`
@@ -14,6 +18,10 @@ export const Content = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 `;
 
 export const ProjectsTitle = styled.h2`
@@ -24,4 +32,8 @@ export const ProjectsTitle = styled.h2`
   align-self: center;
   letter-spacing: 3px;
   margin-top: 2.6rem;
+
+  @media (max-width: 900px) {
+    margin-bottom: 6rem;
+  }
 `;

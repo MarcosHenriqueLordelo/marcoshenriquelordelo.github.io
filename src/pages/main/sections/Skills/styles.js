@@ -5,6 +5,10 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   height: 100vh;
+
+  @media (max-width: 900px) {
+    height: fit-content;
+  }
 `;
 
 export const SkillsTitle = styled.h2`
@@ -22,6 +26,10 @@ export const SkillsContent = styled.div`
   display: flex;
   align-items: center;
   margin: 2.8rem 3rem;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 `;
 
 export const SkillsRow = styled.div`
