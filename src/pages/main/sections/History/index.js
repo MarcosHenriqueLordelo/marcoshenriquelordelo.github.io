@@ -15,7 +15,7 @@ import HistoryItem from "../../../../components/historyItem";
 
 const History = () => {
   return (
-    <Container>
+    <Container id="history">
       <HistoryTitle>Minha Trajetória</HistoryTitle>
       <HistoryContent>
         <HistoryLeft>

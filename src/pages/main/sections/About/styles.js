@@ -31,8 +31,8 @@ export const ImageContainer = styled.div`
 
 export const Gradient = styled.div`
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 6rem;
+  height: 6rem;
   background-image: radial-gradient(
     circle at center,
     ${({ theme }) => theme.colors.action} 10%,
@@ -61,19 +61,19 @@ export const Presentation = styled.p`
 
 export const ProfileImage = styled.img`
   width: 100%;
-  max-width: 400px;
+  max-width: 26rem;
   height: auto;
   border-radius: 100%;
 `;
 
 export const IconsContainer = styled.div`
-  margin-top: 100px;
+  margin-top: 6rem;
   a:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 2.5rem;
   }
 `;
 
 export const Icon = styled.img`
-  width: 45px;
+  width: 2.8rem;
   height: auto;
 `;

@@ -13,7 +13,7 @@ export const SkillsTitle = styled.h2`
   border-bottom: 3px solid ${({ theme }) => theme.colors.action};
   width: fit-content;
   align-self: center;
-  margin-top: 30px;
+  margin-top: 2.2rem;
   letter-spacing: 3px;
 `;
 
@@ -21,12 +21,12 @@ export const SkillsContent = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
-  margin: 36px 0;
+  margin: 2.8rem 3rem;
 `;
 
 export const SkillsRow = styled.div`
   width: 100%;
   display: flex;
-  padding: 60px;
+  padding: 3rem;
   flex-direction: column;
 `;

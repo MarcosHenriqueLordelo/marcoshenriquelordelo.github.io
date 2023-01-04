@@ -6,7 +6,7 @@ import { Container, SkillsContent, SkillsRow, SkillsTitle } from "./styles";
 
 const Skills = () => {
   return (
-    <Container>
+    <Container id="skills">
       <SkillsTitle>Minhas Habilidades</SkillsTitle>
       <SkillsContent>
         <SkillsRow>

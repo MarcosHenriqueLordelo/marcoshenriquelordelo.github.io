@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 440px;
-  height: 540px;
+  width: 30rem;
+  height: 35rem;
 
   --moz-perspective: 150rem;
   perspective: 150rem;
@@ -19,8 +19,8 @@ export const Container = styled.div`
 `;
 
 export const CardSide = styled.div`
-  width: 440px;
-  height: 540px;
+  width: 30rem;
+  height: 35rem;
 
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@ export const CardSide = styled.div`
 
   backface-visibility: hidden;
 
-  padding: 30px;
+  padding: 2rem 1.5rem;
 
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -68,16 +68,16 @@ export const Title = styled.h3`
 `;
 
 export const Image = styled.img`
-  width: 115px;
-  height: 115px;
-  margin-bottom: 26px;
+  width: 7rem;
+  height: auto;
+  margin-bottom: 1.6rem;
 `;
 
 export const Body = styled.p`
   font-size: ${({ theme }) => theme.fonts.sizes.small};
   text-align: center;
-  margin: 26px 26px 26px 26px;
-  line-height: 26px;
+  margin: 1.6rem;
+  line-height: 1.6rem;
 `;
 
 export const BackContent = styled.div`
@@ -94,6 +94,6 @@ export const Technology = styled.span`
   letter-spacing: 0.2rem;
 
   &:not(:first-child) {
-    margin-top: 30px;
+    margin-top: 1.8rem;
   }
 `;

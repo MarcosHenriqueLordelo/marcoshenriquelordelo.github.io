@@ -13,7 +13,7 @@ export const HistoryTitle = styled.h2`
   border-bottom: 3px solid ${({ theme }) => theme.colors.action};
   width: fit-content;
   align-self: center;
-  margin-top: 30px;
+  margin-top: 2.2rem;
   letter-spacing: 3px;
 `;
 
@@ -22,7 +22,7 @@ export const HistoryContent = styled.div`
   flex: 1;
   flex-direction: row;
   justify-content: space-between;
-  padding: 60px;
+  padding: 5rem;
 `;
 
 export const UpArrow = styled.div`

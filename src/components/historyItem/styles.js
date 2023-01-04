@@ -21,11 +21,11 @@ export const Label = styled.h3`
 export const Subtitle = styled.span`
   font-size: ${({ theme }) => theme.fonts.sizes.small};
   text-transform: capitalize;
-  margin-top: 3px;
+  margin-top: 0.3rem;
 
-  max-width: 300px;
+  max-width: 26rem;
 `;
 
 export const Period = styled.span`
-  margin-top: 3px;
+  margin-top: 0.3rem;
 `;

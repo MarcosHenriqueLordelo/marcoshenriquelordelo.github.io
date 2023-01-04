@@ -10,7 +10,7 @@ import ehobaba from "../../../../assets/ehobaba.png";
 
 const Projects = () => {
   return (
-    <Container>
+    <Container id="projects">
       <ProjectsTitle>Projetos</ProjectsTitle>
       <Content>
         <Card

@@ -19,7 +19,7 @@ import github from "../../../../assets/github.png";
 
 const About = () => {
   return (
-    <Container>
+    <Container id="about">
       <PresentationContainer>
         <Title>
           Hello World,

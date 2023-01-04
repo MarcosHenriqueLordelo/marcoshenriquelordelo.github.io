@@ -23,5 +23,5 @@ export const ProjectsTitle = styled.h2`
   width: fit-content;
   align-self: center;
   letter-spacing: 3px;
-  margin-top: 30px;
+  margin-top: 2.6rem;
 `;

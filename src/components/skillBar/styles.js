@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
 
   &:not(:first-child) {
-    margin-top: 40px;
+    margin-top: 2rem;
   }
 `;
 
@@ -14,7 +14,7 @@ export const InfoContainer = styled.div`
   display: flex;
   flex: 1;
   justify-content: space-between;
-  padding: 0 6px 6px 6px;
+  padding: .3rem;
 `;
 
 export const Bar = styled.div`
@@ -28,7 +28,7 @@ export const BarContainer = styled.div`
   display: flex;
   background-color: ${({ theme }) => theme.colors.font};
   width: 100%;
-  height: 20px;
+  height: 1.3rem;
   border-radius: 20px;
 `;
 
